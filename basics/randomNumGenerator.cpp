@@ -14,8 +14,8 @@ int main(){
     // Because of the time is changing, random values which are produced by srand will change too
     
     //Insert random numbers
+    srand(time(NULL));
     while(my_vector.size()!=30){
-        srand(time(NULL));
         x = rand()%100;
         cout << x << endl;
         if(1<x && x<100){
