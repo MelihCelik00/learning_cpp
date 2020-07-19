@@ -6,10 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/Users/melihsafacelik/C++ Projects/Fundamentals/BasicExercises/Log.cpp
-iostream
--
-
 /Users/melihsafacelik/C++ Projects/Fundamentals/BasicExercises/main.cpp
 iostream
 -

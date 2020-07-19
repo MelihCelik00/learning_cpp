@@ -150,6 +150,33 @@ Log.cpp.s:
 	$(MAKE) -f CMakeFiles/BasicExercises.dir/build.make CMakeFiles/BasicExercises.dir/Log.cpp.s
 .PHONY : Log.cpp.s
 
+Math.o: Math.cpp.o
+
+.PHONY : Math.o
+
+# target to build an object file
+Math.cpp.o:
+	$(MAKE) -f CMakeFiles/BasicExercises.dir/build.make CMakeFiles/BasicExercises.dir/Math.cpp.o
+.PHONY : Math.cpp.o
+
+Math.i: Math.cpp.i
+
+.PHONY : Math.i
+
+# target to preprocess a source file
+Math.cpp.i:
+	$(MAKE) -f CMakeFiles/BasicExercises.dir/build.make CMakeFiles/BasicExercises.dir/Math.cpp.i
+.PHONY : Math.cpp.i
+
+Math.s: Math.cpp.s
+
+.PHONY : Math.s
+
+# target to generate assembly for a file
+Math.cpp.s:
+	$(MAKE) -f CMakeFiles/BasicExercises.dir/build.make CMakeFiles/BasicExercises.dir/Math.cpp.s
+.PHONY : Math.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -189,6 +216,9 @@ help:
 	@echo "... Log.o"
 	@echo "... Log.i"
 	@echo "... Log.s"
+	@echo "... Math.o"
+	@echo "... Math.i"
+	@echo "... Math.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

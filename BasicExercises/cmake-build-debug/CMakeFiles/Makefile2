@@ -74,12 +74,12 @@ clean: CMakeFiles/BasicExercises.dir/clean
 CMakeFiles/BasicExercises.dir/all:
 	$(MAKE) -f CMakeFiles/BasicExercises.dir/build.make CMakeFiles/BasicExercises.dir/depend
 	$(MAKE) -f CMakeFiles/BasicExercises.dir/build.make CMakeFiles/BasicExercises.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/melihsafacelik/C++ Projects/Fundamentals/BasicExercises/cmake-build-debug/CMakeFiles" --progress-num=1,2,3 "Built target BasicExercises"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/melihsafacelik/C++ Projects/Fundamentals/BasicExercises/cmake-build-debug/CMakeFiles" --progress-num=1,2,3,4 "Built target BasicExercises"
 .PHONY : CMakeFiles/BasicExercises.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/BasicExercises.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/melihsafacelik/C++ Projects/Fundamentals/BasicExercises/cmake-build-debug/CMakeFiles" 3
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/melihsafacelik/C++ Projects/Fundamentals/BasicExercises/cmake-build-debug/CMakeFiles" 4
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/BasicExercises.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/melihsafacelik/C++ Projects/Fundamentals/BasicExercises/cmake-build-debug/CMakeFiles" 0
 .PHONY : CMakeFiles/BasicExercises.dir/rule

@@ -83,6 +83,9 @@
 		<Unit filename="/Users/melihsafacelik/C++ Projects/Fundamentals/BasicExercises/Log.cpp">
 			<Option target="BasicExercises"/>
 		</Unit>
+		<Unit filename="/Users/melihsafacelik/C++ Projects/Fundamentals/BasicExercises/Math.cpp">
+			<Option target="BasicExercises"/>
+		</Unit>
 		<Unit filename="/Users/melihsafacelik/C++ Projects/Fundamentals/BasicExercises/main.cpp">
 			<Option target="BasicExercises"/>
 		</Unit>

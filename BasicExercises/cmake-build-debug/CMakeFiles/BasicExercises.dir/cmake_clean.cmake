@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "BasicExercises"
   "BasicExercises.pdb"
   "CMakeFiles/BasicExercises.dir/Log.cpp.o"
+  "CMakeFiles/BasicExercises.dir/Math.cpp.o"
   "CMakeFiles/BasicExercises.dir/main.cpp.o"
 )
 

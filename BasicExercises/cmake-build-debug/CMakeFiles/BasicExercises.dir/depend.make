@@ -3,5 +3,7 @@
 
 CMakeFiles/BasicExercises.dir/Log.cpp.o: ../Log.cpp
 
+CMakeFiles/BasicExercises.dir/Math.cpp.o: ../Math.cpp
+
 CMakeFiles/BasicExercises.dir/main.cpp.o: ../main.cpp
 

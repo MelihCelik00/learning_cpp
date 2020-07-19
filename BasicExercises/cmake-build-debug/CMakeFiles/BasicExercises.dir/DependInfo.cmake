@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/melihsafacelik/C++ Projects/Fundamentals/BasicExercises/Log.cpp" "/Users/melihsafacelik/C++ Projects/Fundamentals/BasicExercises/cmake-build-debug/CMakeFiles/BasicExercises.dir/Log.cpp.o"
+  "/Users/melihsafacelik/C++ Projects/Fundamentals/BasicExercises/Math.cpp" "/Users/melihsafacelik/C++ Projects/Fundamentals/BasicExercises/cmake-build-debug/CMakeFiles/BasicExercises.dir/Math.cpp.o"
   "/Users/melihsafacelik/C++ Projects/Fundamentals/BasicExercises/main.cpp" "/Users/melihsafacelik/C++ Projects/Fundamentals/BasicExercises/cmake-build-debug/CMakeFiles/BasicExercises.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
