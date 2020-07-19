@@ -1,9 +1,9 @@
 //
 // Created by Melih Safa Celik on 19.07.2020.
 //
-#include <iostream>
+#include "Log.h"
 
-void Log(const char* msg)
+void InitialiseLog()
 {
-    std::cout << msg << std::endl;
+    Log("Log Initialised!");
 }
