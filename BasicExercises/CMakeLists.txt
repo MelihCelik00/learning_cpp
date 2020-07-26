@@ -3,4 +3,4 @@ project(BasicExercises)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(BasicExercises main.cpp Log.cpp Math.cpp)
+add_executable(BasicExercises main.cpp Log.cpp Math.cpp Log.h)
