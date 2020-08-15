@@ -39,14 +39,29 @@ int main() {
             Log("Boolean is false");
     }
     Log("--------------------------");
-    Log("For and While Loops");
+    Log("For Loop");
 
     for (int i = 0; i < 5; i++) {
+        if(i % 2 == 0)
+        {
+            continue;
+        }
+        else if (i % 3 == 0)
+        {
+            break;
+        }
+        else if (i % 5 == 0)
+        {
+            return 0;
+        }
         Log("Hello World!");
+        std::cout << i << std::endl;
     }
 
     int x = 0;
 
+    Log("--------------------------");
+    Log("While Loop");
     while(x<5)
     {
         std::cout << x << std::endl;
