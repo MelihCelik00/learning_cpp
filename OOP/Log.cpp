@@ -1,10 +1,7 @@
 //
 // Created by Melih Celik on 20.08.2020.
 //
-
 #include <iostream>
-
-
 
 class Log{
 public:
