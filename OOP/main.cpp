@@ -1,4 +1,5 @@
 #include <iostream>
+#include "Log.cpp"
 
 #define LOG(x) std::cout << x << std::endl
 
@@ -36,6 +37,7 @@ struct Vec2{
 
 int main() {
 
+
     Player player1;
     player1.x = 5;
     player1.y = 5;
@@ -45,6 +47,13 @@ int main() {
 
     player1.Position();
 
+    /////////////////////////
+
+    Log log;
+    log.SetLevel(log.LogLevelWarning);
+    log.Warn("Hello!");
+    log.Error("Hello!");
+    log.Info("Hello!");
 
     std::cin.get();
 }

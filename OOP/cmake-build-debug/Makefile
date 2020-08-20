@@ -123,6 +123,33 @@ OOP/fast:
 	$(MAKE) -f CMakeFiles/OOP.dir/build.make CMakeFiles/OOP.dir/build
 .PHONY : OOP/fast
 
+Log.o: Log.cpp.o
+
+.PHONY : Log.o
+
+# target to build an object file
+Log.cpp.o:
+	$(MAKE) -f CMakeFiles/OOP.dir/build.make CMakeFiles/OOP.dir/Log.cpp.o
+.PHONY : Log.cpp.o
+
+Log.i: Log.cpp.i
+
+.PHONY : Log.i
+
+# target to preprocess a source file
+Log.cpp.i:
+	$(MAKE) -f CMakeFiles/OOP.dir/build.make CMakeFiles/OOP.dir/Log.cpp.i
+.PHONY : Log.cpp.i
+
+Log.s: Log.cpp.s
+
+.PHONY : Log.s
+
+# target to generate assembly for a file
+Log.cpp.s:
+	$(MAKE) -f CMakeFiles/OOP.dir/build.make CMakeFiles/OOP.dir/Log.cpp.s
+.PHONY : Log.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... OOP"
+	@echo "... Log.o"
+	@echo "... Log.i"
+	@echo "... Log.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
