@@ -22,6 +22,18 @@ public:
 };
 
 
+struct Vec2{
+
+    float x, y;
+
+    void Add(const Vec2& other)
+    {
+        x += other.x;
+        y += other.x;
+    }
+        };
+
+
 int main() {
 
     Player player1;
