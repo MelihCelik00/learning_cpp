@@ -4,6 +4,8 @@
 
 #include <iostream>
 
+
+
 class Log{
 public:
     const int LogLevelError = 0;

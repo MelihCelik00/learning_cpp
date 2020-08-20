@@ -150,6 +150,33 @@ Log.cpp.s:
 	$(MAKE) -f CMakeFiles/OOP.dir/build.make CMakeFiles/OOP.dir/Log.cpp.s
 .PHONY : Log.cpp.s
 
+Static.o: Static.cpp.o
+
+.PHONY : Static.o
+
+# target to build an object file
+Static.cpp.o:
+	$(MAKE) -f CMakeFiles/OOP.dir/build.make CMakeFiles/OOP.dir/Static.cpp.o
+.PHONY : Static.cpp.o
+
+Static.i: Static.cpp.i
+
+.PHONY : Static.i
+
+# target to preprocess a source file
+Static.cpp.i:
+	$(MAKE) -f CMakeFiles/OOP.dir/build.make CMakeFiles/OOP.dir/Static.cpp.i
+.PHONY : Static.cpp.i
+
+Static.s: Static.cpp.s
+
+.PHONY : Static.s
+
+# target to generate assembly for a file
+Static.cpp.s:
+	$(MAKE) -f CMakeFiles/OOP.dir/build.make CMakeFiles/OOP.dir/Static.cpp.s
+.PHONY : Static.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -189,6 +216,9 @@ help:
 	@echo "... Log.o"
 	@echo "... Log.i"
 	@echo "... Log.s"
+	@echo "... Static.o"
+	@echo "... Static.i"
+	@echo "... Static.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

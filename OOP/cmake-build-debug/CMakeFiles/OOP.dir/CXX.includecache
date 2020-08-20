@@ -6,7 +6,15 @@
 
 #IncludeRegexTransform: 
 
+/Users/melihsafacelik/C++ Projects/Fundamentals/OOP/Log.cpp
+iostream
+-
+
+/Users/melihsafacelik/C++ Projects/Fundamentals/OOP/Static.cpp
+
 /Users/melihsafacelik/C++ Projects/Fundamentals/OOP/main.cpp
 iostream
 -
+Log.cpp
+/Users/melihsafacelik/C++ Projects/Fundamentals/OOP/Log.cpp
 

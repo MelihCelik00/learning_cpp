@@ -3,4 +3,4 @@ project(OOP)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(OOP main.cpp Log.cpp)
+add_executable(OOP main.cpp Log.cpp Static.cpp)

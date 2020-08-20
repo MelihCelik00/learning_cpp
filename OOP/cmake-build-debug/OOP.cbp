@@ -83,6 +83,9 @@
 		<Unit filename="/Users/melihsafacelik/C++ Projects/Fundamentals/OOP/Log.cpp">
 			<Option target="OOP"/>
 		</Unit>
+		<Unit filename="/Users/melihsafacelik/C++ Projects/Fundamentals/OOP/Static.cpp">
+			<Option target="OOP"/>
+		</Unit>
 		<Unit filename="/Users/melihsafacelik/C++ Projects/Fundamentals/OOP/main.cpp">
 			<Option target="OOP"/>
 		</Unit>
